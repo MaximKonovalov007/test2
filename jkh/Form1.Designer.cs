@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.city_box = new System.Windows.Forms.ComboBox();
             this.tolc = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,7 +111,7 @@
             // 
             // tolc
             // 
-            this.tolc.Location = new System.Drawing.Point(521, 423);
+            this.tolc.Location = new System.Drawing.Point(462, 423);
             this.tolc.Name = "tolc";
             this.tolc.Size = new System.Drawing.Size(133, 23);
             this.tolc.TabIndex = 5;
@@ -118,11 +119,22 @@
             this.tolc.UseVisualStyleBackColor = true;
             this.tolc.Click += new System.EventHandler(this.tolc_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(601, 423);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 23);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Список домов";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 482);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tolc);
             this.Controls.Add(this.city_box);
             this.Controls.Add(this.label1);
@@ -151,6 +163,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox city_box;
         private System.Windows.Forms.Button tolc;
+        private System.Windows.Forms.Button button1;
     }
 }
 
